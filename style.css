@@ -1,0 +1,56 @@
+body.dark {
+    background: black;
+
+    .head {
+        color: white;
+    }
+}
+
+.head    {
+    font-size: 30px;
+}
+
+.done{
+    background-color: green !important;
+    color: white;
+    text-decoration: line-through;
+}
+
+/* Style Switcher */
+.style-switcher {
+    position: fixed;
+    right: 0;
+    top: 0;
+    padding: 15px;
+    width: 200px;
+    border: 1px solid #e8dfec;
+    background: #fdf9ff;
+    z-index: 101;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    transform: translateX(100%);
+}
+
+.style-switcher .s-icon {
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    font-size: 20px;
+    background: #fdf9ff;
+    color: #302e4d;
+    right: 100%;
+    border: 1px solid #e8dfec;
+    margin-right: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 50%;
+}
+
+.style-switcher .s-icon i {
+    line-height: 40px;
+}
+
+.style-switcher .day-night {
+    top: 0fpx;
+}
