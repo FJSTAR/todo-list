@@ -11,8 +11,6 @@ body.dark {
 }
 
 .done{
-    background-color: green !important;
-    color: white;
     text-decoration: line-through;
 }
 
